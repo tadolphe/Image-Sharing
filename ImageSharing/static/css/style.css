@@ -1,0 +1,68 @@
+body {
+    background-image: url("../images/wood.jpg");
+    margin: 0px;
+}
+
+#topPanel {
+    width: 1024px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+}
+
+#helpTip {
+    width: 300px;
+    margin: auto;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+}
+
+#userCountIcon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -16px;
+    float: right;
+}
+
+#userCount {
+    position: relative;
+    top: -16px;
+    float: right;
+}
+
+#imageBoard {
+    width: 1024px;
+    height: 710px;
+    position: relative;
+    margin: auto;
+    background-image: url("../images/paper.jpg");
+    background-size: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+
+.img {
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    image-rendering: -webkit-optimize-contrast;
+    transition: width 500ms, height 500ms, left 500ms, top 500ms, border-width 500ms;
+    -webkit-transition: width 500ms, height 500ms, left 500ms, top 500ms, border-width 500ms;
+    -moz-transition: width 500ms, height 500ms, left 500ms, top 500ms, border-width 500ms;
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
